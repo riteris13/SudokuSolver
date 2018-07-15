@@ -24,8 +24,10 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="routes\index.js" />
-    <Compile Include="routes\users.js" />
+    <Compile Include="routes\grid.js" />
     <Content Include="public\stylesheets\style.css" />
+    <Content Include="views\pages\grid.ejs" />
+    <Content Include="views\partials\header.ejs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="bin" />

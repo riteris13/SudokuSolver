@@ -1,0 +1,23 @@
+<%- include('../partials/header'); %>
+  <body>
+    <h1> <%= title%> </h1>
+	</br>
+	<h2>Sudoku Grid Table</h2>
+	<table class="table table-bordered">
+		<tbody>
+			<% gridTableRows.forEach(drawRow); %>
+			<%	function drawRow(value, index, array){ %>
+					 <tr> 
+				<%	value.forEach(drawCol) %>
+					 </tr> 
+			<%	} %>
+			<%	function drawCol(value, index, array){ %>
+					<td>
+					<%= value %> 
+					</td>
+			<%	} %>
+		</tbody>
+	</table>
+	
+  </body>
+</html>
