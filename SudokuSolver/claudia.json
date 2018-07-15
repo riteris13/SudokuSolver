@@ -1,0 +1,10 @@
+{
+  "lambda": {
+    "role": "sudokusolver-executor",
+    "name": "sudokusolver",
+    "region": "eu-west-1"
+  },
+  "api": {
+    "id": "6lguyit939"
+  }
+}
